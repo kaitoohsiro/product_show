@@ -1,0 +1,127 @@
+* {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body {
+  background: rgb(224, 243, 157);
+  font-family: Arial;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  color: #111;
+  margin-top: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  font-style: oblique;
+  color: royalblue;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+
+.fm-card {
+  position: relative;
+  width: 320px;
+  height: 400px;
+  margin: auto;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 8px 0px rgba(23, 23, 23, 0.2);
+  box-shadow: 0px 4px 8px 0px rgba(23, 23, 23, 0.2);
+  border-radius: 8px;
+}
+
+.fm-card-header {
+  width: 100%;
+  height: 40%;
+  background-color: royalblue;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.fm-card-header img {
+  max-width: 100%;
+}
+
+.fm-card-header:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.fm-card-header:after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.fm-card-content {
+  position: relative;
+  max-width: 100%;
+  height: 50%;
+  padding: 20px;
+}
+
+.fm-card-content .title a {
+  text-decoration: none;
+  color: #232323;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fm-card-content .title a:hover {
+  color: dodgerblue;
+}
+
+.fm-card-content .summary p {
+  color: #555;
+  font-size: 16px;
+  overflow-wrap: break-word;
+  text-align: left;
+  max-width: 100ch;
+}
+
+.fm-card-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #f9f9f9;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.fm-card-footer .by {
+  padding-left: 20px;
+}
+
+.fm-card-footer .by a {
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+}
+
+.fm-card-footer .by a:hover {
+  color: dodgerblue;
+}
+
+.fm-card-footer .by a .icon-heart {
+  color: crimson;
+  font-size: 20px;
+}
+/*# sourceMappingURL=index.css.map */
